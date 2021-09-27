@@ -17,7 +17,7 @@ historical_tuition <- readr::read_csv('https://raw.githubusercontent.com/rfordat
 
 diversity_school <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-10/diversity_school.csv')
 
-# PLEASE NOTE TO USE 2020 DATA YOU NEED TO USE tidytuesdayR version ? from GitHub
+# PLEASE NOTE TO USE 2020 DATA YOU NEED TO USE tidytuesdayR version
 
 tuesdata <- tidytuesdayR::tt_load('2020-03-10')
 tuesdata <- tidytuesdayR::tt_load(2020, week = 11)
